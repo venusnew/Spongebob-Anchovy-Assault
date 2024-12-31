@@ -1,100 +1,13 @@
-﻿﻿<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <!--AQUI COLOCAR DESCRIPCION DEL JUEGO-->
-<div style="text-align: justify;"> <span style="font-family: arial;"><br /></span></div><table><tbody> <tr><th><div style="text-align: justify;"> <span style="font-family: arial; font-size: x-large;"><b>
-Spongebob Squarepants Anchovy Assault Game </b> </span></div> <div style="text-align: justify;"> <span style="font-family: arial;"><br /></span></div> <div style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"> <span style="font-family: arial;"><a href="https://bestgamesvkpro.blogspot.com/2024/12/Spongebob-Anchovy-Assault.html" target="_blank"><img alt="Fractured" height="155" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjM6jyTVJ0CrltSzOGb4rCW19otdnV8U1Z9UZZszvqYBkGQ4962Eqipp3SHXdW4w3Hb1pWU-wm5DYKsIuBzmEDuCg_wbdt_c-Aa79Fu6sITiPaihAsAOj7_nq7O7hIKIOLyyDo6hSeA8hNe1qZa_VYDR0cF33kea3EXYlb_A6OVdwoU9yINqHV2LRldphI/s322/anchovy.assault.jpg" width="200" /></a></span></div> <div style="text-align: justify;"><span style="font-size: large;"><span style="font-family: arial;">DESCRIPTION:<span style="font-weight: normal;"> If you enjoy competing against your friends, you have to give the Anchovy Assault game a try! Plankton's evil robot anchovies are about to reach the Krusty Krab. Can you protect the Krabby Patty formula so that it doesn't end up in the wrong hands? If so, get ready to kick the enemies and send them back where they came from!
-
-Are you ready to join SpongeBob, Squidward, or Mr. Krabs as they protect their beloved restaurant? Well, now it's time to choose your favorite character and practice your throw! If you're skilled at playing sports, you surely won't have any trouble kicking the robot anchovies high in the air. Can you throw them far away and reach the longest distance?. Your reaction skills are very important in this challenge! You must wait for the arrow to be in the green zone on the meter. If you accidentally aim at the red area, the robot anchovies will start falling. So try not to rush too much and wait for the perfect timing!
-
-In contest mode, you will have to beat multiple levels of increasing difficulty. For each stage, there will be a set objective. Throw the evil minions far enough, and you can progress to the next wave. However, if you can't reach your goal, it'll be game over for SpongeBob and his friends.</span></span></span></div><span style="font-size: large;"><span style="font-family: arial;"><br /></span></span><div style="text-align: justify;"><blockquote><span style="font-size: large;"><span style="font-family: arial;"><span style="color: #2b00fe;">Control:</span> The rules here are very straightforward, but you must still pay attention! To aim and shoot the robot anchovies, you need to use your keyboard. Once the challenge begins, spam the Space Bar by pressing it repeatedly to charge your shot. After that, you have to wait for the meter to reach the green area and launch the evil machines even further away!
-
-The game has two modes to choose from: Free Play and Contest mode. The first one will allow you to practice your swing by throwing the anchovies as far as possible. You just have to pick whether you'll play alone or with a friend. Afterward, you can begin the contest, where you must reach a certain distance to advance to the next stage!
-
-Your main task is to keep the robots flying as long as possible. If they stop and fall to the ground too early, you won't be able to set a new record! Raise the power gauge before you toss the minions and throw plates, burgers, or jellyfish to make them bounce further. This is how you can win today's mission!. </span></span></blockquote></div> </th></tr> </tbody></table><p style="text-align: center;">
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no"/>
     <title>Spongebob Anchovy Assault! Game</title>
     <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
     <script src="https://apis.google.com/js/platform.js"></script>
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-            font-family: Arial, sans-serif;
-        }
-
-        .header {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #0873bf;
-            color: white;
-            padding: 10px 15px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-            gap: 20px;
-        }
-
-        .header .menu button {
-            background-color: rgba(255, 255, 255, 0.8);
-            color: #0873bf;
-            border: none;
-            border-radius: 5px;
-            padding: 8px 12px;
-            cursor: pointer;
-            font-size: 14px;
-            font-weight: bold;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-            transition: background-color 0.3s ease;
-        }
-
-        .header .menu button:hover {
-            background-color: #ffffff;
-        }
-
-        .yt-subscribe-container {
-            margin-bottom: 10px;
-            background-color: rgba(255, 255, 255, 0.9);
-            padding: 5px 10px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-        }
-
-        .game-container {
-            width: 100%;
-            max-width: 800px;
-            height: 60vh;
-            background-color: #000;
-            overflow: hidden;
-            position: relative;
-            margin: 20px 0;
-        }
-
-        @media (max-width: 768px) {
-            .game-container {
-                height: 50vh;
-            }
-
-            .header {
-                flex-wrap: wrap;
-                gap: 10px;
-            }
-
-            .header .menu button {
-                font-size: 12px;
-                padding: 6px 10px;
-            }
-        }
     </style>
-</head>
-<body>
     <!-- Widget de suscripción de YouTube -->
     <div class="yt-subscribe-container">
         <div class="g-ytsubscribe" data-channel="venuskawaiigames" data-layout="full" data-count="default" data-onytevent="onYtEvent"></div>
@@ -106,3 +19,4 @@ Your main task is to keep the robots flying as long as possible. If they stop an
     </div>
 </body>
 </html>
+
