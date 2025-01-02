@@ -1,18 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="utf-8"/>
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no"/>
-    
-    <title>Spongebob Anchovy Assault! Game</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spongebob Anchovy Assault</title>
     <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-    <script src="https://apis.google.com/js/platform.js"></script>
-   
-    <!-- Contenedor del juego -->
-    <div class="game-container" id="gameContainer">
-        <embed src="Spongebob-Anchovy-Assault.swf" id="gameEmbed" width="750" height="450">
-    </div>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: #000; /* Fondo negro opcional */
+        }
+        ruffle-player {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <ruffle-player src="Spongebob-Anchovy-Assault.swf"></ruffle-player>
 </body>
 </html>
-
